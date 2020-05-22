@@ -29,7 +29,7 @@ db.createCollection("users")
 // users - имя вашей коллекции
 ```
 ```
-use itproger
+use yourbase
 db.createCollection("users")
 db.createCollection("articles")
 db.articles.drop()
