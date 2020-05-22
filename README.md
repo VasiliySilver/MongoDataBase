@@ -23,8 +23,17 @@ use db_name
 // db_name - имя вашей будущей базы данных 
 ```
 
-
-
+Для создания коллекций используйте синтаксис:
+```js
+db.createCollection("users")
+// users - имя вашей коллекции
+```
+```
+use itproger
+db.createCollection("users")
+db.createCollection("articles")
+db.articles.drop()
+```
 
 ### 3 - Добавление данных в коллекцию
 ### 4 - Выборка данных из коллекции
