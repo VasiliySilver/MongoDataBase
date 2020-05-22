@@ -11,14 +11,18 @@ MongoDB - современная, мощная, удобная и легкая �
 
 ---
 
-- [Официальный сайт][https://www.mongodb.com/]
-- [Инструкция для Windows][https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/]
+- [Официальный сайт](https://www.mongodb.com/)
+- [Инструкция для Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
 
 
 ### 2 - Создание базы данных
 
 Для создания БД используйте следующий синтаксис:
-< use db_name
+```js
+const TelegramBot = require('node-telegram-bot-api');
+
+
+use db_name
 // db_name - имя вашей будущей базы данных >
 
 ### 3 - Добавление данных в коллекцию
